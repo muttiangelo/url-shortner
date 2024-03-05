@@ -1,9 +1,7 @@
-import { PrismaClient } from '@prisma/client'
 import express  from 'express'
 import cors from 'cors'
 import router from "./routes/url.routes.ts";
 
-const prisma = new PrismaClient()
 const PORT = process.env.port || 3000
 const app = express()
 app.use(express.json())
