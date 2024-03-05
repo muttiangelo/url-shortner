@@ -1,5 +1,7 @@
 # url-shortner
 
+Url Shortener project created with Express.js, prisma and MongoDB.
+
 To install dependencies:
 
 ```bash
